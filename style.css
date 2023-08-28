@@ -135,7 +135,7 @@ a {
   height: auto;
 }
 .top3-content {
-  max-width: 78rem;
+  max-width: 75rem;
   min-height: 100vh;
   display: flex;
   flex-flow: column nowrap;
@@ -143,7 +143,15 @@ a {
   text-align: justify;
 }
 #title-two {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+.centerimage{
+  display: flex;
+  justify-content: center;
+}
+.centerimage img{
+  width: 45rem;
+  height: 45rem;
 }
 .grid-one-content {
   min-height: 100vh;
@@ -172,7 +180,7 @@ a {
   left: -2rem;
   transform: rotate(5deg);
 }
-.tecnologies{
+.tecnologies {
   margin-bottom: 2rem;
 }
 .grid-main-heading {
@@ -211,12 +219,13 @@ table td,
 table th {
   white-space: nowrap;
   padding: 1rem;
-  border: 0.1rem solid lightgrey;
+  border: 0.1rem solid rgb(161, 160, 160);
   text-align: left;
 }
 tfoot td,
 thead th {
-  background: lightgrey;
+  background: var(--primary-color);
+  color: var(--white-color);
 }
 .contact-form {
   grid-column: span 2;
@@ -304,7 +313,7 @@ body .full-width {
   transform: rotate(-90deg);
   border: 0.1rem solid var(--primary-color);
 }
-.texts{
+.texts {
   text-align: justify;
 }
 @media (max-width: 800px) {
