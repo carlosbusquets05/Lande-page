@@ -33,7 +33,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-  font-size: 5rem;
+  font-size: 4.3rem;
 }
 h3 {
   font-size: 4.5rem;
@@ -125,9 +125,10 @@ a {
   justify-content: center;
 }
 .intro-text-content h2 {
-  font-size: 5rem;
+  font-size: 4.3rem;
   margin-bottom: 5rem;
   text-transform: uppercase;
+  width: 55rem;
 }
 .intro-img img,
 .intro-img svg {
@@ -303,6 +304,9 @@ body .full-width {
   color: var(--primary-color);
   transform: rotate(-90deg);
   border: 0.1rem solid var(--primary-color);
+}
+.texts{
+  text-align: justify;
 }
 @media (max-width: 800px) {
   .intro-content,
