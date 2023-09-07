@@ -145,11 +145,11 @@ a {
 #title-two {
   margin-bottom: 3rem;
 }
-.centerimage{
+.centerimage {
   display: flex;
   justify-content: center;
 }
-.centerimage img{
+.centerimage img {
   width: 45rem;
   height: 45rem;
 }
